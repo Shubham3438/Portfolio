@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubham Kishor Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+(function(){ emailjs.init("YOUR_PUBLIC_KEY"); })();
+</script>
+
+</head>
+
+<body>
+
+<canvas id="matrix"></canvas>
+
+<nav>
+
+</nav>
+
+<section class="hero">
+<h1> <span>Shubham Kishor</span></h1>
+<p>Cybersecurity Student | Network Security | Secure Systems | Pentration Tester</p>
+
+<a href="resume.pdf" download>
+</a>
+</section>
+
+<!-- About -->
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>I am a Computer Science and Engineering student at Lovely Professional University with a keen interest in cybersecurity, software development, and problem solving. I have experience working with programming languages including C++, Python, Java, JavaScript, and C, along with tools like Git, MySQL, Linux, and VS Code. I have developed projects such as a QR Code Generator and Password Generator using Python and completed training in building a Library Management System using C++ and Object-Oriented Programming. I actively participate in hackathons and coding practice, having solved 60+ problems on LeetCode, while also contributing to teamwork and community-based environmental initiatives.</p>
+</div>
+</section>
+
+<!-- Skills -->
+<section>
+<h2>Skills</h2>
+<div class="card">
+Languages: Java, JavaScript, C++, Python, C<br>
+Tools: Git, MySQL, Linux, VS Code<br>
+Soft Skills: Leadership, Adaptability, Problem Solving
+</div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+<h2>Projects</h2>
+<div id="githubProjects" class="grid"></div>
+</section>
+
+<!-- Training -->
+<section id="training">
+<h2>Training</h2>
+
+<div class="card" onclick="openTraining()">
+Library Management System 
+</div>
+
+</section>
+
+<!-- Certificates -->
+<section id="certificates">
+<h2>Certificates</h2>
+
+<div id="certificatesContainer" class="grid"></div>
+</section>
+
+<!-- Extracurricular Activities -->
+<section id="activities">
+<h2>Extracurricular Activities</h2>
+
+<div id="activitiesContainer" class="card"></div>
+</section>
+
+<!-- Education -->
+<section id="education">
+<h2>Education</h2>
+
+<div id="educationContainer"></div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+<div id="footerContent" class="grid"></div>
+</footer>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+<span onclick="closeModal()">X</span>
+<div id="modalContent"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
