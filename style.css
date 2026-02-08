@@ -1,8 +1,33 @@
+
 body{
 margin:0;
 background:black;
-color:white;
+color:#e0e0e0;
 font-family:Poppins;
+}
+
+h1, h2, h3{
+color:#00ffff;
+text-shadow: 0 0 10px #00ffff;
+font-weight:bold;
+}
+
+h1{
+font-size:3.5em;
+letter-spacing:2px;
+}
+
+h2{
+color:#1eff00;
+text-shadow: 0 0 8px #1eff00;
+font-size:2.2em;
+margin-bottom:20px;
+}
+
+p{
+color:#b0e0e6;
+line-height:1.6;
+font-weight:300;
 }
 
 canvas{
@@ -34,6 +59,8 @@ text-align:center;
 
 span{
 color:#00ffff;
+font-weight:bold;
+text-shadow: 0 0 8px #00ffff;
 }
 
 section{
@@ -47,16 +74,46 @@ margin:20px 0;
 border-radius:10px;
 cursor:pointer;
 transition:.3s;
+color:#c0c0c0;
+border-left:4px solid #1eff00;
 }
 
 .card:hover{
 box-shadow:0 0 15px cyan;
+background:#1a1a1a;
+color:#00ffff;
 }
 
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
+}
+
+.skill-card{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:30px 20px;
+background:linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+border:2px solid #1eff00;
+border-radius:10px;
+}
+
+.skill-card h3{
+margin-top:0;
+margin-bottom:15px;
+font-size:1.3em;
+color:#1eff00;
+text-shadow:0 0 8px #1eff00;
+}
+
+.skill-card:hover{
+border-color:#00ffff;
+box-shadow:0 0 20px #00ffff;
+background:linear-gradient(135deg, #0f3460 0%, #1a1a4a 100%);
 }
 
 .grid img{
@@ -75,6 +132,24 @@ padding:12px 25px;
 background:cyan;
 border:none;
 cursor:pointer;
+}
+
+.resume-btn{
+display:inline-block;
+margin-top:20px;
+padding:15px 40px;
+background:#00ffff;
+color:#000;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.resume-btn:hover{
+background:#00cccc;
+box-shadow:0 0 20px #00ffff;
+transform:scale(1.05);
 }
 
 input,textarea{
