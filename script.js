@@ -239,4 +239,3 @@ contactInfo.forEach(info=>{
   div.innerHTML=content;
   footerContent.appendChild(div);
 });
-
