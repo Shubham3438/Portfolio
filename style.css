@@ -1,4 +1,3 @@
-
 body{
 margin:0;
 background:black;
@@ -181,4 +180,21 @@ cursor:pointer;
 width:60%;
 margin:10% auto;
 display:block;
+}
+.btn-link{
+display:inline-block;
+padding:10px 20px;
+background:#00ffff;
+color:#000;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+font-size:0.95em;
+transition:0.3s;
+}
+
+.btn-link:hover{
+background:#00cccc;
+box-shadow:0 0 15px #00ffff;
+transform:scale(1.05);
 }
