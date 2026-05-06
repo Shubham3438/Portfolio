@@ -130,11 +130,11 @@ const HeroSection = () => {
           {/* Right side - Profile image */}
           <motion.div variants={fadeUp} className="flex justify-center md:justify-end">
             <div className="relative">
-              <div className="w-72 h-96 md:w-80 md:h-[28rem] rounded-3xl overflow-hidden border-4 border-primary/20 shadow-2xl">
+              <div className="w-72 h-96 md:w-80 md:h-[32rem] rounded-3xl overflow-hidden border-4 border-primary/20 shadow-2xl">
                 <img 
                   src="/profile.jpg" 
                   alt="Profile" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-xl"></div>
